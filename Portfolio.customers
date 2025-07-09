@@ -1,0 +1,90 @@
+-- PURPOSE:
+-- This query retrieves the names of customers who are over 30 years old.
+-- It's useful for narrowing down a customer list by age without exposing full personal data.
+
+-- USE CASE:
+-- A marketing team is preparing a campaign targeted at adults over 30. 
+-- They only need customer names to personalize emails while ensuring age eligibility.
+
+SELECT name,age FROM customers
+WHERE age > 30;
+
+-- PURPOSE:
+-- This query adds a new column called 'email' to the existing 'customers' table.
+
+-- USE CASE:
+-- The business now needs to store the
+-- customer email addresses for sending the email.
+
+ALTER TABLE customers
+ADD COLUMN email TEXT;
+
+-- PURPOSE:
+-- This query confirms that the new 'email' column was successfully added 
+-- by retrieving all current data from the 'customers' table.
+
+-- USE CASE:
+-- After altering a table structure, it's important to verify that the changes 
+-- were applied correctly. This is part of basic data validation and QA practices.
+
+SELECT * FROM customers;
+
+-- PURPOSE:
+-- This set of queries updates the 'email' column in the 'customers' table 
+-- with actual email addresses for each customer.
+
+-- USE CASE:
+-- After adding a new column to a table, it's common to backfill existing records 
+-- with known data. In this case, we are updating customer email addresses 
+-- for use in communications, marketing, or account management.
+
+UPDATE customers
+SET email = 'janedoe@gmail.com'
+WHERE id = 1;
+
+UPDATE customers
+SET email = 'johndoe@gmail.com'
+WHERE id = 2;
+
+UPDATE customers
+SET email = 'jilldoe@gmail.com'
+WHERE id = 3;
+
+UPDATE customers
+SET email = 'jamesdoe@gmail.com'
+WHERE id = 4;
+
+
+-- PURPOSE:
+-- This query checks that all email addresses were correctly updated 
+-- for each customer by displaying the full contents of the 'customers' table.
+
+-- USE CASE:
+-- After performing updates on a database, it's essential to verify that 
+-- the changes were applied as expected. This is a common practice during 
+-- data entry, QA, or ETL processes.
+
+SELECT * FROM customers;
+
+-- PURPOSE:
+-- This query updates the name of the customer with ID 2 
+-- from "Johnny" to "John" to reflect his preferred name.
+
+-- USE CASE:
+-- Customer information often changes or needs correction. 
+-- This kind of update is typical in customer relationship management (CRM) 
+-- systems to maintain accurate and respectful records.
+
+UPDATE customers
+SET name = 'John'
+WHERE id = 2;
+
+-- PURPOSE:
+-- This final query confirms that all intended updates — including email entries 
+-- and the corrected name for customer ID 2 — have been successfully applied.
+
+-- USE CASE:
+-- It's best practice to run a final check after a series of updates to verify data accuracy 
+-- before moving on, especially in production environments or when preparing a report or export.
+
+SELECT * FROM customers;
