@@ -1,11 +1,11 @@
 # Regina Haley's SQL, Python & Excel Portfolio
 
 ## Files Included:
-- `employees.sql` — CRUD and aggregation queries on employee data
-- `customers.sql` — Filtering, updating, and data quality checks
-- `advanced_queries.sql` — Joins, subqueries, group-by with having
-- `Excel_Project_Portfolio.xlsx` — Pivot tables, charts, and category analysis
-- `customers_employees.db` — SQLite database used with all queries
+- `Portfolio.employees.sql` — CRUD and aggregation queries on employee data
+- `Portfolio.customers.sql` — Filtering, updating, and data quality checks
+- `Intermediate_SQL.sql` — Joins, subqueries, group-by with having
+- `Project-Management-Sample_Data.xlsx` — Pivot tables, charts, and category analysis
+- `Database_customers_employees.db` — SQLite database used with all queries
 - `customer_data(Sheet1).csv` — CSV file used for Python example
 - `JupyterPortfolio.ipynb` — Python example using Jupyter Notebook, pandas and SQLite3
 
