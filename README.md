@@ -1,4 +1,24 @@
 # Regina Haley's SQL, Python & Excel Portfolio
+## Data Analytics Portfolio
+
+Welcome to my data analytics portfolio. Each project demonstrates key skills in data analysis using Python, SQL, and visualization tools.
+
+## 📊 Projects
+
+### [Customer Insights Analysis](https://github.com/ReginaHaley/Jupyter-customer-data)
+Analyzes customer data to identify age demographics, Gmail usage, and summary statistics using pandas.
+
+### [Email Domain Breakdown](https://github.com/yourusername/email-analysis)
+Filters email domains and counts provider types.
+
+### [Coming Soon: Sales Dashboard]
+Interactive visualization of monthly sales trends.
+
+## Resume
+
+### [Regina Haley Resume](https://github.com/ReginaHaley/resume)
+Resume in both .pdf and .docx
+
 
 ## Files Included:
 - `Portfolio.employees.sql` — CRUD and aggregation queries on employee data
