@@ -8,8 +8,8 @@ Welcome to my data analytics portfolio. Each project demonstrates key skills in 
 ### [Customer Insights Analysis](https://github.com/ReginaHaley/Jupyter-customer-data)
 Analyzes customer data to identify age demographics, Gmail usage, and summary statistics using pandas.
 
-### [Email Domain Breakdown](https://github.com/yourusername/email-analysis)
-Filters email domains and counts provider types.
+### [SQLite Employees and Customers Database](https://github.com/ReginaHaley/SQLdatabase)
+SQL for querying and analyzing structured data from a relational database.
 
 ### [Coming Soon: Sales Dashboard]
 Interactive visualization of monthly sales trends.
