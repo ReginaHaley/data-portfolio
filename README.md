@@ -1,41 +1,51 @@
-# Regina Haley's SQL, Python & Excel Portfolio
-## Data Analytics Portfolio
+# Regina Haley's Data Analytics Portfolio
 
-Welcome to my data analytics portfolio. Each project demonstrates key skills in data analysis using Python, SQL, and visualization tools.
+Welcome to my data analytics portfolio. Each project demonstrates key skills in SQL, Python, and Excel, with a focus on real-world business data analysis and visualization.
 
-## 📊 Projects
+## 📊 Featured Projects
 
 ### [Customer Insights Analysis](https://github.com/ReginaHaley/Jupyter-customer-data)
-Analyzes customer data to identify age demographics, Gmail usage, and summary statistics using pandas.
+Explores customer data using Python and pandas to identify patterns in age, email domains, and overall summary statistics.
 
-### [SQLite Employees and Customers Database](https://github.com/ReginaHaley/SQLdatabase)
-SQL for querying and analyzing structured data from a relational database.
+### [SQLite: Employees & Customers Database](https://github.com/ReginaHaley/SQLdatabase)
+Uses intermediate SQL to query a relational database, including joins, subqueries, and data quality checks.
 
-### [Coming Soon: Sales Dashboard]
-Interactive visualization of monthly sales trends.
+### *Coming Soon: Sales Dashboard*
+Interactive Excel-based dashboard visualizing monthly trends and key metrics.
 
-## Resume
+## 📄 Resume
 
-### [Regina Haley Resume](https://github.com/ReginaHaley/resume)
-Resume in both .pdf and .docx
+### [View My Resume (PDF & DOCX)](https://github.com/ReginaHaley/resume)
 
+---
 
-## Files Included:
-- `Portfolio.employees.sql` — CRUD and aggregation queries on employee data
-- `Portfolio.customers.sql` — Filtering, updating, and data quality checks
-- `Intermediate_SQL.sql` — Joins, subqueries, group-by with having
-- `Project-Management-Sample_Data.xlsx` — Pivot tables, charts, and category analysis
-- `Database_customers_employees.db` — SQLite database used with all queries
-- `customer_data(Sheet1).csv` — CSV file used for Python example
-- `JupyterPortfolio.ipynb` — Python example using Jupyter Notebook, pandas and SQLite3
+## 📁 Key Files
 
-## Tools Used:
-- DB Browser for SQLite
-- Microsoft Excel (with PivotTables and Charts)
-- Python (Jupyter Notebook, pandas, sqlite3) 
+- `Portfolio.employees.sql` – CRUD and aggregation queries on employee data
+- `Portfolio.customers.sql` – Filtering, updates, and data quality queries
+- `Intermediate_SQL.sql` – Joins, subqueries, group-by with HAVING
+- `Database_customers_employees.db` – SQLite database used in all SQL projects
+- `Project-Management-Sample_Data.xlsx` – Excel project with pivot tables and charts
+- `customer_data(Sheet1).csv` – Dataset used in the Jupyter notebook
+- `JupyterPortfolio.ipynb` – Python project using pandas and SQLite
 
-## 2 Screenshots of Excel Visuals
-## 2 Screenshots of Jupyter Notebook work
+---
 
-## Summary:
-This portfolio demonstrates my ability to work with real-world business data using SQL, Excel, and Python. It covers table creation, data updates, analysis, basic visualization, and Python-based data exploration with pandas and SQL integration.
+## 🛠 Tools Used
+
+- DB Browser for SQLite  
+- Microsoft Excel (PivotTables, Charts)  
+- Python (Jupyter Notebook, pandas, sqlite3)
+
+---
+
+## 📸 Visuals Included
+
+- 2 screenshots of Excel dashboards  
+- 2 screenshots of Jupyter notebook output
+
+---
+
+## 🧠 Summary
+
+This portfolio highlights my ability to work with structured business data using SQL, Excel, and Python. Projects include database querying, data analysis, visualization, and integration across tools. Each project reflects my progress toward becoming a data analyst and future AI engineer.
