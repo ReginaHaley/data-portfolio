@@ -10,6 +10,9 @@ Explores customer data using Python and pandas to identify patterns in age, emai
 ### [SQLite: Employees & Customers Database](https://github.com/ReginaHaley/SQLdatabase)
 Uses intermediate SQL to query a relational database, including joins, subqueries, and data quality checks.
 
+### [Excel: Project Management](https://github.com/ReginaHaley/excel-project-management-analysis)
+This project demonstrates how to analyze and visualize departmental project distributions using Excel tools, including PivotTables and pie charts.
+
 ### *Coming Soon: Sales Dashboard*
 Interactive Excel-based dashboard visualizing monthly trends and key metrics.
 
