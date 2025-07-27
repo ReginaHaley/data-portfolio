@@ -10,7 +10,7 @@ My goal: to land a data analyst apprenticeship or junior role where I can contin
 
 This project collection was created to demonstrate the foundational skills expected in entry-level data analyst roles and apprenticeships:
 
-- Working with real data (structured, incomplete, or messy)
+- Working with real data (structured, incomplete or messy)
 - Querying databases using SQL
 - Cleaning and analyzing data using Excel and Python
 - Creating charts and dashboards
